@@ -1,10 +1,12 @@
-<h1 align="center"> app 💻 </h1>
+<h1 align="center"> Naped 💻 </h1>
 
 ## Briefing 📄
 
-This is briefing
+This is the challenge #10 from Codelândia figma kit. It's a website for geek news. Build with angular.
 
 > [Acessar]()
+> [Codelândia website](https://desafio22-projetos-codelandia.vercel.app/)
+
 
 <h2 align="left"> Objetivo 📌 </h2>
 

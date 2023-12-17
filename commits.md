@@ -8,6 +8,8 @@ commit 0
 commmit 1
 
     Header, Hero e main image estáticos feitos.
+    Fiz o readme, repositório no gh e enviei.
 
+commit 2
     
     

@@ -24,7 +24,8 @@
         ],
         "peek": [
           "angular.json",
-          "commits.md"
+          "commits.md",
+          "README.md"
         ]
       },
       {
@@ -47,7 +48,6 @@
     "LICENSE": true,
     "package-lock.json": true,
     "package.json": true,
-    "README.md": true,
     "tsconfig.app.json": true,
     "tsconfig.json": true,
     "tsconfig.spec.json": true
