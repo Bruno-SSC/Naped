@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-
-interface headerIcons {
-  logo: string;
-  menuIcon: string;
-}
+import { AssetsProviderService } from 'src/app/services/assets-provider.service';
 
 @Component({
   selector: 'app-header',
@@ -11,10 +7,9 @@ interface headerIcons {
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  assetsFolder: string = '../../../../assets/';
-  
-  imgPaths: headerIcons = {
-    logo: 'icons/Naped.svg',
-    menuIcon: 'icons/menu.svg',
-  };
+  assetsFolder: string | undefined;
+
+  constructor(private assets: AssetsProviderService) {
+    this.assetsFolder = this.assets.assetsFolder;
+  }
 }

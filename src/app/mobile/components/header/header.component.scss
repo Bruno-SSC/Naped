@@ -1,19 +1,18 @@
 .navbar {
   margin: 0 auto;
-  width: 90vw;
+  width: 100vw;
   height: 20vh;
+  padding: 24px 24px 0 24px;
 
   display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
   row-gap: 30px;
 }
 
 .brand-logo {
   grid-column-start: 1;
   width: 100px;
-
+  align-self: end;
   img {
     width: 100%;
     object-fit: cover;
@@ -23,6 +22,7 @@
 .menu-icon {
   grid-column-start: 3;
   justify-self: end;
+  align-self: end;
   width: 30px;
 
   img {
@@ -34,9 +34,17 @@
 .account-btn {
   grid-column: 1 / -1;
   justify-self: normal;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+  align-self: start;
+
+  display: grid;
+  place-items: center;
+  padding: 8px 10px;
+
   border: 2px solid #8257e6;
   border-radius: 30px;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FEFBFB;
 }

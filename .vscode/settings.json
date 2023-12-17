@@ -23,7 +23,8 @@
           "tsconfig.spec.json"
         ],
         "peek": [
-          "angular.json"
+          "angular.json",
+          "commits.md"
         ]
       },
       {
@@ -43,7 +44,6 @@
     "**/.DS_Store": true,
     ".editorconfig": true,
     ".gitignore": true,
-    "commits.md": true,
     "LICENSE": true,
     "package-lock.json": true,
     "package.json": true,
