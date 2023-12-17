@@ -1,0 +1,56 @@
+{
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".editorconfig",
+          ".gitignore",
+          "angular.json",
+          "commits.md",
+          "LICENSE",
+          "package-lock.json",
+          "package.json",
+          "README.md",
+          "tsconfig.app.json",
+          "tsconfig.json",
+          "tsconfig.spec.json",
+          "tsconfig.app.json",
+          "tsconfig.json",
+          "tsconfig.spec.json"
+        ],
+        "peek": [
+          "angular.json"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    "commits.md": true,
+    "LICENSE": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "README.md": true,
+    "tsconfig.app.json": true,
+    "tsconfig.json": true,
+    "tsconfig.spec.json": true
+  },
+  "hidefiles.selectedProfile": "Default"
+}

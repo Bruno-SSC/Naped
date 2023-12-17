@@ -1,0 +1,42 @@
+.navbar {
+  margin: 0 auto;
+  width: 90vw;
+  height: 20vh;
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+}
+
+.brand-logo {
+  grid-column-start: 1;
+  width: 100px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.menu-icon {
+  grid-column-start: 3;
+  justify-self: end;
+  width: 30px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.account-btn {
+  grid-column: 1 / -1;
+  justify-self: normal;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #8257e6;
+  border-radius: 30px;
+}
